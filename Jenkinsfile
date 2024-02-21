@@ -23,7 +23,7 @@ pipeline {
         stage('Deploy')
         {
             steps{
-                sh 'surge ./_build/ jduran1.surge.sh --token $TOKEN'
+                sh 'surge ./_build/ jduran.surge.sh --token $TOKEN'
             }
         }
 
